@@ -19,6 +19,27 @@ O RAG-Assist é uma aplicação de IA que utiliza Retrieval-Augmented Generation
 
 ---
 
+## ⚙️ Stack Tecnológica
+- Camada --> Tecnologia
+- Embeddings --> OpenAIEmbeddings ou HuggingFaceEmbeddings
+- VetorStore --> Chroma ou FAISS
+- LLM --> Azure OpenAI
+- Framework --> RAG	LangChain
+- Frontend --> Streamlit
+- Backend --> Python
+- CI/CD -->	GitHub Actions
+- Deploy --> Render ou Azure App Service
+
+---
+
+## 📦 Instalação Rápida
+git clone https://github.com/seu-user/rag-assist
+cd rag-assist
+pip install -r requirements.txt
+streamlit run app.py
+
+---
+
 ## 🧱 Arquitetura
 
 ```mermaid
@@ -32,21 +53,4 @@ graph TD
     D --> H[Azure OpenAI LLM]
     H --> I[Resposta gerada + fonte]
 
----
 
-## ⚙️ Stack Tecnológica
-- Camada --> Tecnologia
-- Embeddings --> OpenAIEmbeddings ou HuggingFaceEmbeddings
-- VetorStore --> Chroma ou FAISS
-- LLM --> Azure OpenAI
-- Framework --> RAG	LangChain
-- Frontend --> Streamlit
-- Backend --> Python
-- CI/CD -->	GitHub Actions
-- Deploy --> Render ou Azure App Service
-
-## 📦 Instalação Rápida
-git clone https://github.com/seu-user/rag-assist
-cd rag-assist
-pip install -r requirements.txt
-streamlit run app.py
