@@ -1,4 +1,6 @@
 # 🧠 RAG-Assist: Assistente Inteligente de RH
+**Description:**
+The RAG-Assist is an AI app that uses Retrieval-Augmented Generation (RAG) with LangChain, embeddings vetoriais e Azure OpenAI to answer questions about  internal HR policies based on PDF docs. 
 
 **Descrição:**  
 O RAG-Assist é uma aplicação de IA que utiliza Retrieval-Augmented Generation (RAG) com LangChain, embeddings vetoriais e Azure OpenAI para responder perguntas sobre políticas internas de RH com base em documentos PDF reais da empresa.
@@ -29,6 +31,8 @@ graph TD
     G --> D
     D --> H[Azure OpenAI LLM]
     H --> I[Resposta gerada + fonte]
+
+---
 
 ## ⚙️ Stack Tecnológica
 - Camada --> Tecnologia
