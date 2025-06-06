@@ -4,7 +4,7 @@ The RAG-Assist is an AI app that uses Retrieval-Augmented Generation (RAG) with 
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Functionalities
 
 - Upload HR PDF doc (vacation policy, benefits policy, etc.)
 - Automatic indexation to vector db
