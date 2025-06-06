@@ -2,20 +2,17 @@
 **Description:**
 The RAG-Assist is an AI app that uses Retrieval-Augmented Generation (RAG) with LangChain, embeddings vetoriais e Azure OpenAI to answer questions about  internal HR policies based on PDF docs. 
 
-**Descrição:**  
-O RAG-Assist é uma aplicação de IA que utiliza Retrieval-Augmented Generation (RAG) com LangChain, embeddings vetoriais e Azure OpenAI para responder perguntas sobre políticas internas de RH com base em documentos PDF reais da empresa.
-
 ---
 
 ## 🚀 Funcionalidades
 
-- Upload de documentos PDF (ex: política de férias, benefícios, etc.)
-- Indexação automática em base vetorial
-- Interface Streamlit para perguntas/respostas
-- Geração de respostas com LangChain + Azure OpenAI
-- Exibição da fonte do conteúdo (transparência)
-- CI/CD via GitHub Actions
-- Deploy público (Render / Azure)
+- Upload HR PDF doc (vacation policy, benefits policy, etc.)
+- Automatic indexation to vector db
+- Streamlit Interface to questions/answers
+- Answer generation with LangChain + Azure OpenAI
+- Show answer source (transparency)
+- CI/CD by GitHub Actions
+- Public deployment (Azure)
 
 ---
 
