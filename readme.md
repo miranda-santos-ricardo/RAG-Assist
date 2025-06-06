@@ -33,10 +33,10 @@ O RAG-Assist é uma aplicação de IA que utiliza Retrieval-Augmented Generation
 ---
 
 ## 📦 Instalação Rápida
-git clone https://github.com/seu-user/rag-assist
-cd rag-assist
-pip install -r requirements.txt
-streamlit run app.py
+- git clone https://github.com/seu-user/rag-assist
+- cd rag-assist
+- pip install -r requirements.txt
+- streamlit run app.py
 
 ---
 
@@ -44,13 +44,13 @@ streamlit run app.py
 
 ```mermaid
 graph TD
-    A[PDF de RH] --> B[Conversão para Texto]
-    B --> C[Criação de Embeddings]
-    C --> D[Base Vetorial FAISS ou Chroma]
-    E[Usuário via Streamlit] --> F[Input de Pergunta]
+    A[HR PDF] --> B[Text convertion]
+    B --> C[Embeddings creation]
+    C --> D[Base Vetorial]
+    E[User (streamlit)] --> F[Question]
     F --> G[LangChain Retriever]
     G --> D
     D --> H[Azure OpenAI LLM]
-    H --> I[Resposta gerada + fonte]
+    H --> I[Answer + source]
 
 
