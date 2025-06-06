@@ -47,7 +47,7 @@ graph TD
     A[HR PDF] --> B[Text convertion]
     B --> C[Embeddings creation]
     C --> D[Base Vetorial]
-    E[User (streamlit)] --> F[Question]
+    E[Streamlit User] --> F[Question]
     F --> G[LangChain Retriever]
     G --> D
     D --> H[Azure OpenAI LLM]
