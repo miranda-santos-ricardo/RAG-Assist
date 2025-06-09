@@ -9,18 +9,18 @@ The RAG-Assist is an AI app that uses Retrieval-Augmented Generation (RAG) with 
 - Upload HR PDF doc (vacation policy, benefits policy, etc.)
 - Automatic indexation to vector db
 - Streamlit Interface to questions/answers
-- Answer generation with LangChain + Azure OpenAI
+- Answer generation with LangChain + OpenAI
 - Show answer source (transparency)
-- CI/CD by GitHub Actions
-- Public deployment (Azure)
+- CI/CD by GitHub Actions (WIP)
+- Public deployment (Azure) (WIP)
 
 ---
 
 ## ⚙️ Stack Tecnológica
-- Camada --> Tecnologia
-- Embeddings --> OpenAIEmbeddings ou HuggingFaceEmbeddings
-- VetorStore --> Chroma ou FAISS
-- LLM --> Azure OpenAI
+- Layers  --> Tecnologia
+- Embeddings --> OpenAIEmbeddings 
+- VetorStore --> Chroma
+- LLM --> OpenAI
 - Framework --> RAG	LangChain
 - Frontend --> Streamlit
 - Backend --> Python
@@ -29,7 +29,7 @@ The RAG-Assist is an AI app that uses Retrieval-Augmented Generation (RAG) with 
 
 ---
 
-## 📦 Instalação Rápida
+## 📦 Install 
 - git clone https://github.com/seu-user/rag-assist
 - cd rag-assist
 - pip install -r requirements.txt
@@ -37,17 +37,17 @@ The RAG-Assist is an AI app that uses Retrieval-Augmented Generation (RAG) with 
 
 ---
 
-## 🧱 Arquitetura
+## 🧱 Architecture (high level)
 
 ```mermaid
 graph TD
     A[HR PDF] --> B[Text convertion]
     B --> C[Embeddings creation]
-    C --> D[Base Vetorial]
+    C --> D[Vector DB]
     E[Streamlit User] --> F[Question]
     F --> G[LangChain Retriever]
     G --> D
-    D --> H[Azure OpenAI LLM]
+    D --> H[OpenAI LLM]
     H --> I[Answer + source]
 
 
