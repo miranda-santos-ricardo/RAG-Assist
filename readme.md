@@ -2,7 +2,7 @@
 **Description:**
 The RAG-Assist is an AI app that uses Retrieval-Augmented Generation (RAG) with LangChain, embeddings vetoriais e OpenAI to answer questions about  internal HR policies based on PDF docs. 
 
-<img width="429" alt="image" src="https://github.com/user-attachments/assets/c31de89b-f693-4025-930c-e003de722bf9" />
+
 
 ---
 
