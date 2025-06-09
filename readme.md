@@ -17,7 +17,6 @@ The RAG-Assist is an AI app that uses Retrieval-Augmented Generation (RAG) with 
 ---
 
 ## ⚙️ Stack
-- Layers  --> Tecnologia
 - Embeddings --> OpenAIEmbeddings 
 - VetorStore --> Chroma
 - LLM --> OpenAI
